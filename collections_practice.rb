@@ -35,6 +35,14 @@ end
 #   return sum
 # end
 
-def sum_array(array)
+def sum_array(array) #Advanced
   array.inject {|sum, num| sum + num}
+end
+
+def add_s(array)
+  if !array[1]
+    array.each do |word|
+      word + "s"
+    end
+  end
 end
