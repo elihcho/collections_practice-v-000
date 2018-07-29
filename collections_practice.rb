@@ -40,10 +40,8 @@ def sum_array(array) #Advanced
 end
 
 def add_s(array)
-  if !array[1]
-    array.map! do |word|
-      word + "s"
-    end
+  array.map! do |word|
+    word + "s"
   end
   return array
 end
