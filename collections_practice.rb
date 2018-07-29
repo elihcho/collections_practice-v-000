@@ -43,6 +43,6 @@ def add_s(array)
   array.map! do |word|
     word + "s"
   end
-  array[1] << array[1].slice[0,-1]
+  array[1] << array[1][0..-1]
   return array
 end
