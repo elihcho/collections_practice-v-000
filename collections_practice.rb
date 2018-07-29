@@ -27,13 +27,13 @@ def find_a(array)
   array.select {|word| word[0]=="a"}
 end
 
-def sum_array(array)
-  sum = 0
-  array.each do |num|
-    sum += num
-  end
-  return sum
-end
+# def sum_array(array)
+#   sum = 0
+#   array.each do |num|
+#     sum += num
+#   end
+#   return sum
+# end
 
 def sum_array(array)
   array.inject {|sum, num| sum + num}
