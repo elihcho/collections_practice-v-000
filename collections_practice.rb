@@ -41,8 +41,9 @@ end
 
 def add_s(array)
   if !array[1]
-    array.map do |word|
+    array.map! do |word|
       word + "s"
     end
   end
+  return array
 end
