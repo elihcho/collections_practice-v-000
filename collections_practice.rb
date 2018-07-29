@@ -34,3 +34,7 @@ def sum_array(array)
   end
   return sum
 end
+
+def sum_array(array)
+  array.inject {|sum, num| }
+end
