@@ -40,4 +40,4 @@ def sum_array(array) #Advanced
 end
 
 def add_s(array)
-  array.collect.with_index
+  array.collect.with_index 
